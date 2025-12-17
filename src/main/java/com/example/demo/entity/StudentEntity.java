@@ -1,12 +1,13 @@
 package com.example.demo.entity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.id;
 @Entity
 public class StudentEntity{
     @id
-    @GeneratedValue
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private integer id;
     private string username;
     private string email;
