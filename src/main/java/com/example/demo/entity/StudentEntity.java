@@ -13,9 +13,6 @@ public class StudentEntity{
     private String email;
     private String password;
     private Date created;
-    public Date getCreated(){
-        return created;
-    }
 
 
 public void setCreated(Date created){
