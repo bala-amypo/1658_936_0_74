@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.StudentService;
 import com.example.demo.entity.StudentEntity;
 @RestController
-public class StudentController(){
+public class StudentController{
 @Autowired StudentService ser;
-@PostMapping("/post");
+@PostMapping("/post")
 public StudentEntity sendData(@RequestBody StudentEntity stu){
-    return ser.postData(stu);
+    return ser.ostData(stu);
 }
 }
