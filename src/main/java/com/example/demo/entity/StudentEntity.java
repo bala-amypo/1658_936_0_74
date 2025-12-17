@@ -7,18 +7,23 @@ public class StudentEntity{
     private string username;
     private string email;
     private string password;
-    private date createAt;
+    private date created;
+    public Date getC
 
 }
 public void setId(integer id){
     this.id=id;
 }
-public void getId(){
+public integer getId(){
     return id;
 }
 
 public void setName(String name){
     this.name=name;
 }
-public 
+public String getUsername(){
+    return username;
+
+}
+public void set
 
