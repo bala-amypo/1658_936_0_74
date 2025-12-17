@@ -1,6 +1,6 @@
 package com.example.demo.entity
 
-
+import 
 @Entity
 public class StudentEntity{
     private integer id;
