@@ -8,22 +8,33 @@ public class StudentEntity{
     private string email;
     private string password;
     private date created;
-    public Date getC
+    public Date getCreated(){
+        return Created;
+    }
 
 }
-public void setId(integer id){
-    this.id=id;
+public void setCreated(Date created){
+    this.created=created;
 }
 public integer getId(){
     return id;
+}
+public void setId(Integer id){
+    this.id=id;
+}
+public String getName(){
+    return name;
 }
 
 public void setName(String name){
     this.name=name;
 }
-public String getUsername(){
-    return username;
+public String getEmail(){
+    return email;
+}
+public void setEmail(String email){
+    this.email=email;
 
 }
-public void set
+public String getPassword
 
