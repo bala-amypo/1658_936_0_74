@@ -10,4 +10,15 @@ public class StudentEntity{
     private date createAt;
 
 }
+public void setId(integer id){
+    this.id=id;
+}
+public void getId(){
+    return id;
+}
+
+public void setName(String name){
+    this.name=name;
+}
+public 
 
