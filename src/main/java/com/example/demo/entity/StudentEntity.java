@@ -21,6 +21,9 @@ public class StudentEntity{
 public void setCreated(Date created){
     this.created=created;
 }
+public Date getCreated(){
+    return created;
+}
 
 public void setId(Integer id){
     this.id=id;
