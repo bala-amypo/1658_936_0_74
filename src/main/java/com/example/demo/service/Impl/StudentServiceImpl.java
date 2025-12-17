@@ -1,4 +1,5 @@
 package com.example.demo.service.Impl;
+import org.springframework.beans.factory.
 import org,springframework.stereotype.Service;
 
 import com.example.demo.service.StudentService;
@@ -12,6 +13,6 @@ public class StudentServiceImpl implements StudentService{
     //deleteById()
     //ExistsBtId()
 public StudentEntity PostData(StudentEntity stu){
-
+return student.save(stu);
 }
 }
