@@ -12,9 +12,9 @@ public class StudentEntity{
     private string username;
     private string email;
     private string password;
-    private date created;
+    private Date created;
     public Date getCreated(){
-        return Created;
+        return created;
     }
 
 
