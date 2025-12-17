@@ -8,10 +8,10 @@ import jakarta.persistence.Id;
 public class StudentEntity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private integer id;
-    private string username;
-    private string email;
-    private string password;
+    private Integer id;
+    private String username;
+    private String email;
+    private String password;
     private Date created;
     public Date getCreated(){
         return created;
@@ -21,12 +21,14 @@ public class StudentEntity{
 public void setCreated(Date created){
     this.created=created;
 }
-public integer getId(){
-    return id;
-}
+
 public void setId(Integer id){
     this.id=id;
 }
+public Integer getId(){
+    return id;
+}
+public void
 public String getName(){
     return name;
 }
