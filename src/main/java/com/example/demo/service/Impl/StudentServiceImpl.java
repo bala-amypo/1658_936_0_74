@@ -6,5 +6,12 @@ import com.example.demo.entity.StudentEntity;
 @Service
 public class StudentServiceImpl implements StudentService{
     @Autowired StudentRepo student;
-StudentEntity PostData(StudentEntity stu);
+    //save()
+    //findAll()
+    //findById()
+    //deleteById()
+    //ExistsBtId()
+public StudentEntity PostData(StudentEntity stu){
+
+}
 }
