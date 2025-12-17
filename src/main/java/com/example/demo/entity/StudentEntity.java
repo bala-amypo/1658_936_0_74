@@ -52,14 +52,14 @@ public String getPassword(){
 public void setPassword(String password){
     this.password=password;
 }
-public sampleEntity(Integer id,String name,String email,String password,Date created){
+public StudentEntity(Integer id,String name,String email,String password,Date created){
     this.id=id;
     this.name=name;
     this.email=email;
     this.password=password;
     this.created=created;
 }
-public sampleEntity(){
+public StudentEntity(){
 
 }
 
