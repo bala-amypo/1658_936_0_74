@@ -24,6 +24,7 @@ private Long id;
     private String password;
 @Max(30)
 @Positive(message="Age must be a positive number")
+@NotNull
     private int age;
 
 
@@ -67,6 +68,9 @@ public ValidationEntity(Long id,
         this.email=email;
         this.password=password;
         this.age=age;
+    }
+    public ValidationEntity{
+
     }
 }
 
