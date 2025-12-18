@@ -22,3 +22,4 @@ return student.save(stu);
 public List<StudentEntity>getAllData(){
 return student.getAllData();
 }
+}
