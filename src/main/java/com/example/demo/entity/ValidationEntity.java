@@ -26,7 +26,7 @@ private Long id;
 @Positive(message="Age must be a positive number")
     private int age;
 
-}
+
 public void setId(Long id){
     this.id=id;
 }
@@ -65,6 +65,8 @@ public ValidationEntity(Long id,
         this.id=id;
         this.name=name;
         this.email=email;
+        this.password=password;
+        this.age=age;
     }
-
+}
 
