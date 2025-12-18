@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.ValidationService;
 import com.example.demo.entity.ValidationEntity;
 import org.springframework.web.bind.annotation.Valid;
-import java.util.Listl
+import java.util.List;
 // import org.springframework.web.bind.annotation.GetMapping;
 // import org.springframework.web.bind.annotation.PathVariable;
 // import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,9 +16,9 @@ import java.util.Listl
 
 @RestController
 public class ValidationController{
-@Autowired StudentService ser;
-@PostMapping("/post")
+@Autowired ValidationService ser;
+@PostMapping("/Validpost")
 
-public ValidationEntity sendData(@Valid @RequestBody ValidationEntity stu){
+public ValidationEntity Postval(@Valid @RequestBody ValidationEntity stu){
     return ser.PostData(stu);
 }
