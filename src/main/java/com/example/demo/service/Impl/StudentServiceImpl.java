@@ -20,6 +20,6 @@ return student.save(stu);
 }
 @Override
 public List<StudentEntity>getAllData(){
-return student.getAllData();
+return student.findAll();
 }
 }
