@@ -12,9 +12,12 @@ public class ValidationEntity{
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 private Long id;
 @Notnull
-@Size(min=2,max=30)
+@Size(min=2,max=10,message ="must be 2 to 10 character")
     private String name;
+    @Email(message="Email is not valid")
     private String email;
+@Max(6)
+@Notnull(message="Password is mandatory")
     private String password;
     private int age;
 
