@@ -28,5 +28,7 @@ public String deleteval(@PathVariable int id){
     return ser.DeleteData(id);
 }
 @GetMapping("/getid/{id}")
-public StudentEntity getdata(@)
+public StudentEntity getdata(@PathVariable int id){
+    return service.getData(id);
+}
 }
