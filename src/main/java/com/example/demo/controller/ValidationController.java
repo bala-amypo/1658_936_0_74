@@ -22,3 +22,4 @@ public class ValidationController{
 public ValidationEntity Postval(@Valid @RequestBody ValidationEntity stu){
     return ser.PostData(stu);
 }
+}
