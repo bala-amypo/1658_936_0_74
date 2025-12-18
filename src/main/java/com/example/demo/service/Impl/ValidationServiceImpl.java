@@ -8,9 +8,9 @@ import com.example.demo.repository.StudentRepo;
 
 import java.util.List;
 @Service
-public class StudentServiceImpl implements StudentService{
-    @Autowired StudentRepo student;
+public class ValidationServiceImpl implements ValidationService{
+    @Autowired ValidationRepository student;
     @Override
-public StudentEntity PostData(StudentEntity stu){
+public ValidationEntity PostData(StudentEntity stu){
 return student.save(stu);
 }

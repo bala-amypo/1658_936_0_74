@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.ValidationService;
 import com.example.demo.entity.ValidationEntity;
-import 
+import org.springframework.web.bind.annotation.Valid;
+import java.util.Listl
 // import org.springframework.web.bind.annotation.GetMapping;
 // import org.springframework.web.bind.annotation.PathVariable;
 // import org.springframework.web.bind.annotation.DeleteMapping;
