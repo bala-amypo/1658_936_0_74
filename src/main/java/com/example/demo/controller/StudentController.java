@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.StudentService;
 import com.example.demo.entity.StudentEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import java.util.List;
 @RestController
 public class StudentController{
 @Autowired StudentService ser;
