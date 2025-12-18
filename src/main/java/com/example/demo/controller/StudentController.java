@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.StudentService;
 import com.example.demo.entity.StudentEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 @RestController
 public class StudentController{
@@ -18,5 +19,9 @@ public StudentEntity sendData(@RequestBody StudentEntity stu){
 @GetMapping("/get")
 public List<StudentEntity>getval(){
     return ser.getAllData();
+}
+@DeleteMapping("/delete/{id}")
+public String deleteval(@PathVariable int id){
+    return service.
 }
 }
