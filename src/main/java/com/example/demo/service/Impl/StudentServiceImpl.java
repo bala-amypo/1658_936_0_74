@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 import com.example.demo.service.StudentService;
 import com.example.demo.entity.StudentEntity;
 import com.example.demo.repository.StudentRepo;
-import 
+import org.springframework.web.bind.annotation.PathVariable;
+
 import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService{
