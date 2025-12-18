@@ -10,11 +10,6 @@ import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService{
     @Autowired StudentRepo student;
-    //save()
-    //findAll()
-    //findById()
-    //deleteById()
-    //ExistsBtId()
     @Override
 public StudentEntity PostData(StudentEntity stu){
 return student.save(stu);
