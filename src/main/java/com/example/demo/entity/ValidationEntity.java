@@ -69,7 +69,7 @@ public ValidationEntity(Long id,
         this.password=password;
         this.age=age;
     }
-    public ValidationEntity{
+    public ValidationEntity(){
 
     }
 }
