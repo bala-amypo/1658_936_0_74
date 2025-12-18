@@ -1,6 +1,8 @@
 package com.example.demo.exception;
 
 public class ValidationException extends RunTimeException{
-    publ;
+    public ValidationException(String message){
 super(message);
+}
+
 }
