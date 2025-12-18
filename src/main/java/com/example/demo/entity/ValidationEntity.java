@@ -19,11 +19,41 @@ private Long id;
     private String name;
     @Email(message="Email is not valid")
     private String email;
-@Max(6)
+@Size(min=3,max=6,message="must be 3 to 6 character")
 @Notnull(message="Password is mandatory")
     private String password;
 @Max(30)
 @Positive(message="Age must be a positive number")
     private int age;
 
+}
+public void setId(Integer id){
+    this.id=id;
+}
+public Integer getId(){
+    return id;
+}
+public void setName(String name){
+    this.name=name;
+}
+public String getName(){
+    return name;
+}
+
+
+public String getEmail(){
+    return email;
+}
+public void setEmail(String email){
+    this.email=email;
+
+}
+public String getPassword(){
+    return password;
+}
+public int getAge(){
+    return age;
+}
+public void setAge(int age){
+    this.age=age;
 }
