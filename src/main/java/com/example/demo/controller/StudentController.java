@@ -17,6 +17,6 @@ public StudentEntity sendData(@RequestBody StudentEntity stu){
 }
 @GetMapping("/get")
 public List<StudentEntity>getval(){
-    return service.getAllData();
+    return ser.getAllData();
 }
 }
