@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.service.ValidationService;
 import com.example.demo.entity.ValidationEntity;
-import org.springframework.web.bind.annotation.Valid;
-import java.util.List;
+import jakarta.validation.Valid;
+
 
 
 @RestController
