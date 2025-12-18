@@ -31,4 +31,6 @@ public String deleteval(@PathVariable int id){
 public StudentEntity getdata(@PathVariable int id){
     return ser.getData(id);
 }
+@PutMapping("/putid/{id}")
+public 
 }
