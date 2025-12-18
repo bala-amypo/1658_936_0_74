@@ -8,7 +8,7 @@ import com.example.demo.service.StudentService;
 import com.example.demo.entity.StudentEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.DeleteMappig;
 
 
 import java.util.List;
