@@ -21,7 +21,7 @@ public class StudentidEntity{
 @OneToOne
     
     @JoinColumn(name="student_id")
-        private Studentdetails student;
+        private Studentdetail student;
 
 
 
