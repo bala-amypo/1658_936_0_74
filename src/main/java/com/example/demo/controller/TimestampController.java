@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-public class ValidationController{
-@Autowired ValidationService ser;
+public class TimestampController{
+@Autowired TimestampService ser;
 @PostMapping("/Timepost")
 
-public ValidationEntity sendData(@Valid @RequestBody ValidationEntity stu){
+public TimestampEntity TimeData(@RequestBody TimestampEntity stu){
     return ser.PostData(stu);
 }
 
