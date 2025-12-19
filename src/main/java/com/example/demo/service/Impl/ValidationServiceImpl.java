@@ -18,3 +18,4 @@ return student.save(stu);
 public ValidationEntity getData(Long id){
     return student.findById(id).orElseThrow(()->new ValidationException("Invalid Id"+id));
 }
+}
