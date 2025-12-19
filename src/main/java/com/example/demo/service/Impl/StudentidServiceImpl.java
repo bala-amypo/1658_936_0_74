@@ -10,8 +10,8 @@ import com.example.demo.repository.StudentidRepo;
 public class StudentidServiceImpl implements StudentidService{
     @Autowired StudentidRepo student;
     @Override
-public StudentidEntity PostData(StudentidEntity en){
-return student.save(en);
+public StudentidEntity PostData(StudentidEntity da){
+return student.save(da);
 }
 
 }
