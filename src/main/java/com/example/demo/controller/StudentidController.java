@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-public class StudentdetailController{
+public class TimestampController{
 @Autowired TimestampService ser;
 @PostMapping("/Timepost")
 
