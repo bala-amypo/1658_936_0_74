@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import com.example.demo.service.TimestampService;
 import com.example.demo.entity.TimestampEntity;
 import com.example.demo.repository.TimestampRepository;
-import com.example.demo.exception.TimestampException;   
 
 @Service
 public class TimestampServiceImpl implements TimestampService{

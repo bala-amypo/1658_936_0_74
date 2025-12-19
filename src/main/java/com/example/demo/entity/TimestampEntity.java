@@ -18,7 +18,7 @@ public class TimestampEntity{
     private String name;
     private String email;
     private Created LocalDateTime;
-    private Created LocalDateTime;
+    private Updated LocalDateTime;
 
 
 
