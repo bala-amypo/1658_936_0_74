@@ -4,14 +4,14 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.service.StudentdetailService;
 import com.example.demo.entity.StudentdetailEntity;
-import com.example.demo.repository.StudentdetailRepository;
+import com.example.demo.repository.StudentdetailRepo;
 
 @Service
 public class StudentdetailServiceImpl implements StudentdetailService{
-    @Autowired StudentdetailRepository student;
+    @Autowired StudentdetailRepo student;
     @Override
-public StudentdetailEntity PostData(StudentdetailEntity en){
-return student.save(en);
+public StudentdetailEntity PostData(StudentdetailEntity de){
+return student.save(de);
 }
 
 }

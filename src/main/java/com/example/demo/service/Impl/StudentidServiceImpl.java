@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.service.StudentidService;
 import com.example.demo.entity.StudentidEntity;
-import com.example.demo.repository.StudentidRepository;
+import com.example.demo.repository.StudentidRepo;
 
 @Service
 public class StudentidServiceImpl implements StudentidService{
-    @Autowired StudentidRepository student;
+    @Autowired StudentidRepo student;
     @Override
 public StudentidEntity PostData(StudentidEntity en){
 return student.save(en);
