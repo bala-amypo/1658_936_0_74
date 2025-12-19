@@ -21,7 +21,7 @@ public ValidationEntity sendData(@Valid @RequestBody ValidationEntity stu){
     return ser.PostData(stu);
 }
 @GetMapping("/getid/{id}")
-public ValidationEntity getdata(@PathVariable Long id){
-    return ser.getData(id);
+public ValidationEntity getsdata(@PathVariable Long id){
+    return ser.getDatas(id);
 }
 }
