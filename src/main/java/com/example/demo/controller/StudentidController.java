@@ -1,22 +1,24 @@
+
+
 package com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PostMapping;
-import com.example.demo.service.TimestampService;
-import com.example.demo.entity.TimestampEntity;
+import com.example.demo.service.StudentidService;
+import com.example.demo.entity.StudentidEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 
 
 @RestController
-public class TimestampController{
-@Autowired TimestampService ser;
-@PostMapping("/Timepost")
+public class StudentidController{
+@Autowired StudentidService ser;
+@PostMapping("/Idpost")
 
-public TimestampEntity TimeData(@RequestBody TimestampEntity stu){
+public StudentidEntity IdData(@RequestBody StudentidEntity stu){
     return ser.PostData(stu);
 }
 
