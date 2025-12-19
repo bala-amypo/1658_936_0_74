@@ -20,7 +20,7 @@ public class ValidationController{
 public ValidationEntity sendData(@Valid @RequestBody ValidationEntity stu){
     return ser.PostData(stu);
 }
-@GetMapping("/getid/{id}")
+@GetMapping("/gettid/{id}")
 public ValidationEntity getsdata(@PathVariable Long id){
     return ser.getDatas(id);
 }
