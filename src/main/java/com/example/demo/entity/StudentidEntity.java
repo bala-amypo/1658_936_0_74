@@ -17,7 +17,8 @@ public class StudentidEntity{
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
     private Integer idcardnumber;
-    private Integer student_id;
+@OneToOne
+    private Studentdetails student;
 
 
 
