@@ -3,8 +3,8 @@ package com.example.demo.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
-import com.example.demo.entity.ValidationEntity;
+import com.example.demo.entity.TimestampEntity;
 @Repository
-public interface TimestampRepository extends JpaRepository<ValidationEntity,Long>{
+public interface TimestampRepository extends JpaRepository<TimestampEntity,Long>{
 
 }
