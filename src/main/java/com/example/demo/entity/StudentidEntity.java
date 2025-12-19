@@ -19,8 +19,10 @@ public class StudentidEntity{
     private Integer id;
     private Integer idcardnumber;
 @OneToOne
-    private Studentdetails student;
-    @JoinColumn(name="student")
+    
+    @JoinColumn(name="student_id")
+        private Studentdetails student;
+
 
 
 
