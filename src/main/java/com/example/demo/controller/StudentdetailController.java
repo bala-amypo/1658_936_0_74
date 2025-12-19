@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 public class StudentdetailController{
-@Autowired TimestampService ser;
-@PostMapping("/Timepost")
+@Autowired StudentdetailService ser;
+@PostMapping("/Detailpost")
 
-public TimestampEntity TimeData(@RequestBody TimestampEntity stu){
+public TimestampEntity DetailData(@RequestBody Entity stu){
     return ser.PostData(stu);
 }
 
