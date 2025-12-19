@@ -18,8 +18,5 @@ public class ValidationController{
 public ValidationEntity sendData(@Valid @RequestBody ValidationEntity stu){
     return ser.PostData(stu);
 }
-@PutMapping("/putid/{id}")
-public StudentEntity putval(@PathVariable int id,@RequestBody StudentEntity entity){
-    return ser.updateData(id,entity);
-}
+
 }
