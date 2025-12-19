@@ -7,8 +7,7 @@ import jakarta.persistence.Id;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import jakarta.persistence.Prepersist;
-@Prepersist
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -21,11 +20,7 @@ public class StudentEntity{
     private String email;
     private String password;
     private Date created;
-@PrePersist
-public void Oncreate(
-{
-LocalDateTime now=new LocalDateTime();
-this.createdat=now;
-this.up
+
+
 
 }
